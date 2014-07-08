@@ -20,17 +20,18 @@
     // ** MySQL settings - You can get this info from your web host ** //
     /** The name of the database for WordPress */
     define('DB_NAME', 'wordpress_db');
-
+var_dump($_SERVER);die;
+    
     if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Google App Engine') !== false) {
-        /** Live environment Cloud SQL login and SITE_URL info */
+        /**Live environment Cloud SQL login and SITE_URL info*/
         define('DB_HOST', ':/cloudsql/your-project-id:wordpress');
         define('DB_USER', 'root');
         define('DB_PASSWORD', '');
     } else {
         /** Local environment MySQL login info */
-        define('DB_HOST', '127.0.0.1');
+        define('DB_HOST', 'localhost');
         define('DB_USER', 'root');
-        define('DB_PASSWORD', 'password');
+        define('DB_PASSWORD', 'ag34vh1k');
     }
 
     // Determine HTTP or HTTPS, then set WP_SITEURL and WP_HOME

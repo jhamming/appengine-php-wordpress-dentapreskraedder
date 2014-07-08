@@ -1,5 +1,5 @@
-application: your-project-id
-version: wpfromstarterproject
+application: dentapreskraedder
+version: dentapreskraedder
 runtime: php
 api_version: 1
 
