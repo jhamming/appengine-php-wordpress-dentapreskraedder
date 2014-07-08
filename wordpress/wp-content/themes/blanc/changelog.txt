@@ -1,0 +1,40 @@
+/*
+Theme Name: Blanc
+Author: Mamekko
+Author URI: http://welcustom.net/
+Theme URI: http://welcustom.net/mamekko/index.html
+Latest Version: 1.1.2
+*/
+
+*******************1.1.2******************
+Fixed some problems of stylesheet (usces_cart.css).
+
+*******************1.1.1******************
+Added fadein/out effect to page-top button (/js/scripts.js, footer.php, footer-nomenu.php).
+*followings are for Welcart e-commerce plugin users*
+Made no-stock items invisible on new item & Recommended item lists(front-page.php).
+Added SSL error fix (functions.php).
+Auto detection of proper language files of jQuery Validation Engine (functions.php).
+Added languages files of jQuery Validation Engine (/js/languages/).
+Fixed some problems of stylesheet (usces_cart.css).
+
+*******************1.1.0******************
+Related items for Welcart e-commerce plugin: make no-stock items invisible (related-item.php).
+Functional outputs are rewrited into inside of hooks (functions.php).
+
+*******************1.0.12******************
+Remove "bloginfo('name')" from header.php, and add "$title .= get_bloginfo('name')" in wp_title filter instead (functions.php).
+
+*******************1.0.11******************
+Remove a condition "is_category('blog')" from comments_open() function (functions.php).
+Update to the latest FontAwesome 4.1.0.
+Add a textdomain into h1 (wc_search_page.php).
+Some small CSS modifications (style.css, usces_cart.css).
+Change Theme URI.
+Remove output functionaries from functions.php and create templates for breadcrumbs & related items instead.
+Add hook to add_editor_style (functions.php).
+Remove blanc_get_attachment_id($url) and rewrite the code into front-page.php directly.
+
+********************************Version 1.0*****************************************
+First version:
+Blanc is simple, white, 100% responsive WordPress theme designed for Welcart e-Commerce plugin. Blog posts and e-Commerce shop can coexcist. Designed with the w3C latest HTML5 and CSS3, it's also set Microdata for Google's rich snippets. Breadcrumbs, related item lists, pagination are already prepared, and also it contains jQuery plugin settings of lightbox, input validation and image slider. You can run your online shop without those plugins, which makes the website lighter and faster.

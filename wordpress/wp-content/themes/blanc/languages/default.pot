@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blanc Theme Translation\n"
+"POT-Creation-Date: 2014-05-09 11:46+0900\n"
+"PO-Revision-Date: 2014-05-09 11:46+0900\n"
+"Last-Translator: Mamekko <info@welcustom.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_n_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:23 ../functions.php:184
+msgid "404 Not found"
+msgstr ""
+
+#: ../404.php:24
+msgid "Back to Home"
+msgstr ""
+
+#: ../archive-item.php:20 ../archive.php:39
+msgid "CATEGORY"
+msgstr ""
+
+#: ../archive-item.php:23 ../archive.php:25
+msgid "TAG"
+msgstr ""
+
+#: ../archive-item.php:26 ../archive.php:28 ../archive.php:42
+msgid "ARCHIVES"
+msgstr ""
+
+#: ../archive.php:22
+msgid "AUTHOR"
+msgstr ""
+
+#: ../archive.php:30 ../functions.php:146
+msgid "F jS, Y"
+msgstr ""
+
+#: ../archive.php:31 ../functions.php:149
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:32 ../functions.php:152 ../functions.php:188
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:99 ../front-page.php:134 ../home.php:83
+msgid "READ MORE"
+msgstr ""
+
+#: ../comments.php:15
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:35
+msgid "Submit"
+msgstr ""
+
+#: ../front-page.php:63
+msgid "WHAT'S NEW"
+msgstr ""
+
+#: ../front-page.php:171
+msgid "RECOMMENDS"
+msgstr ""
+
+#: ../functions.php:33
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: ../functions.php:34 ../inc/class-tgm-plugin-activation.php:197
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:35 ../inc/class-tgm-plugin-activation.php:198
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:36
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:37 ../inc/class-tgm-plugin-activation.php:201
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: ../functions.php:38 ../inc/class-tgm-plugin-activation.php:202
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+
+#: ../functions.php:39 ../inc/class-tgm-plugin-activation.php:204
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../functions.php:40 ../inc/class-tgm-plugin-activation.php:205
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+
+#: ../functions.php:41 ../inc/class-tgm-plugin-activation.php:206
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: ../functions.php:42 ../inc/class-tgm-plugin-activation.php:207
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+
+#: ../functions.php:43 ../inc/class-tgm-plugin-activation.php:208
+msgid "Begin installing plugin"
+msgstr ""
+
+#: ../functions.php:44 ../inc/class-tgm-plugin-activation.php:209
+msgid "Begin activating plugin"
+msgstr ""
+
+#: ../functions.php:45
+msgid "Return to Recommended Plugins Installer"
+msgstr ""
+
+#: ../functions.php:46 ../inc/class-tgm-plugin-activation.php:212
+#: ../inc/class-tgm-plugin-activation.php:1951
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:47
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions.php:67
+msgid "Navigation"
+msgstr ""
+
+#: ../functions.php:144 ../wc_templates/wc_search_page.php:22
+#: ../wc_templates/wc_search_page.php:32
+msgid "Multiple Category Search"
+msgstr ""
+
+#: ../functions.php:147
+#, php-format
+msgid "Posts on %s"
+msgstr ""
+
+#: ../functions.php:150 ../functions.php:153
+#, php-format
+msgid "Posts in %s"
+msgstr ""
+
+#: ../functions.php:158 ../functions.php:177 ../functions.php:278
+#, php-format
+msgid "Results for '%s'"
+msgstr ""
+
+#: ../functions.php:174 ../functions.php:275
+msgid "Home"
+msgstr ""
+
+#: ../functions.php:182 ../functions.php:280
+msgid "Tag:"
+msgstr ""
+
+#: ../functions.php:186
+msgid "jS"
+msgstr ""
+
+#: ../functions.php:187
+msgid "F"
+msgstr ""
+
+#: ../functions.php:216 ../functions.php:259 ../functions.php:286
+#, php-format
+msgid " - Page %d"
+msgstr ""
+
+#: ../functions.php:223
+msgid "Author:"
+msgstr ""
+
+#: ../functions.php:336
+msgid "YOU MAY ALSO LIKE..."
+msgstr ""
+
+#: ../functions.php:394
+msgid "Footer column 1"
+msgstr ""
+
+#: ../functions.php:395
+msgid "Place widgets for 1st column."
+msgstr ""
+
+#: ../functions.php:404
+msgid "Footer column 2"
+msgstr ""
+
+#: ../functions.php:405
+msgid "Place widgets for 2nd column."
+msgstr ""
+
+#: ../functions.php:414
+msgid "Footer column 3"
+msgstr ""
+
+#: ../functions.php:415
+msgid "Place widgets for 3rd column."
+msgstr ""
+
+#: ../functions.php:424
+msgid "Footer column 4"
+msgstr ""
+
+#: ../functions.php:425
+msgid "Place widgets for 4th column."
+msgstr ""
+
+#: ../functions.php:434
+msgid "Blog sidebar"
+msgstr ""
+
+#: ../functions.php:435
+msgid "Place widgets for blog page."
+msgstr ""
+
+#: ../functions.php:444
+msgid "Page sidebar"
+msgstr ""
+
+#: ../functions.php:445
+msgid "Place widgets for pages."
+msgstr ""
+
+#: ../functions.php:454
+msgid "Member page sidebar"
+msgstr ""
+
+#: ../functions.php:455
+msgid "Place widgets for member page."
+msgstr ""
+
+#: ../functions.php:469 ../functions.php:474
+msgid "Inquiry Form"
+msgstr ""
+
+#: ../functions.php:543 ../wc_templates/cart/wc_cart_page.php:66
+msgid "Business package discount"
+msgstr ""
+
+#: ../header.php:33
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../header.php:40 ../header.php:53
+msgid "MENU"
+msgstr ""
+
+#: ../search-item.php:19 ../search.php:20
+msgid "SEARCH"
+msgstr ""
+
+#: ../search-item.php:48
+#, php-format
+msgid "Your search for \"%s\" did not match any results."
+msgstr ""
+
+#: ../search-item.php:49 ../search.php:80
+msgid "Try different keywords"
+msgstr ""
+
+#: ../search-item.php:52 ../searchform.php:12
+msgid "Search..."
+msgstr ""
+
+#: ../search.php:67
+msgid "more"
+msgstr ""
+
+#: ../search.php:79
+#, php-format
+msgid "Your search for \"%s\" did not yield any results."
+msgstr ""
+
+#: ../single.php:68
+msgid "Previous Post"
+msgstr ""
+
+#: ../single.php:71
+msgid "Next Post"
+msgstr ""
+
+#: ../thumbnail-box.php:28
+msgid "Sold Out"
+msgstr ""
+
+#: ../thumbnail-box.php:31
+msgid "Out Of Stock"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:196
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:200
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:203
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:210
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:213
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:544
+#: ../inc/class-tgm-plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1185
+msgid "Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1185
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1188
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1290
+#: ../inc/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1312
+#: ../inc/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1934
+msgid "Install package not available."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2065
+#: ../inc/class-tgm-plugin-activation.php:2074
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2065
+#: ../inc/class-tgm-plugin-activation.php:2074
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../wc_templates/wc_item_single.php:68
+#: ../wc_templates/wc_item_single.php:120
+msgid "Please appoint an option."
+msgstr ""
+
+#: ../wc_templates/wc_item_single.php:79
+#: ../wc_templates/wc_item_single.php:136
+msgid "ADD TO CART"
+msgstr ""
+
+#: ../wc_templates/wc_item_single.php:164
+msgid "An article concerned"
+msgstr ""
+
+#: ../wc_templates/wc_search_page.php:62
+msgid "Search results"
+msgstr ""
+
+#: ../wc_templates/wc_search_page.php:62
+msgid "cases"
+msgstr ""
+
+#: ../wc_templates/wc_search_page.php:70 ../wc_templates/wc_search_page.php:95
+msgid "&laquo; Previous article"
+msgstr ""
+
+#: ../wc_templates/wc_search_page.php:75
+#: ../wc_templates/wc_search_page.php:100
+msgid "Next article &raquo;"
+msgstr ""
+
+#: ../wc_templates/wc_search_page.php:105
+msgid "The article was not found."
+msgstr ""
+
+#: ../wc_templates/wc_search_page.php:118
+msgid "Search"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:25
+#: ../wc_templates/cart/wc_confirm_page.php:29
+#: ../wc_templates/cart/wc_customer_page.php:25
+#: ../wc_templates/cart/wc_delivery_page.php:26
+msgid "Cart"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:26
+#: ../wc_templates/cart/wc_confirm_page.php:30
+#: ../wc_templates/cart/wc_customer_page.php:26
+#: ../wc_templates/cart/wc_delivery_page.php:27
+msgid "Customer info"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:27
+#: ../wc_templates/cart/wc_confirm_page.php:31
+#: ../wc_templates/cart/wc_customer_page.php:27
+#: ../wc_templates/cart/wc_delivery_page.php:28
+msgid "Payment"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:28
+#: ../wc_templates/cart/wc_confirm_page.php:32
+#: ../wc_templates/cart/wc_customer_page.php:28
+#: ../wc_templates/cart/wc_delivery_page.php:29
+msgid "Confirmation"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:41
+msgid "To change quantity, press Update button."
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:41
+msgid "Quantity renewal"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:46
+#: ../wc_templates/cart/wc_confirm_page.php:46
+msgid "Product"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:47
+#: ../wc_templates/cart/wc_confirm_page.php:47
+msgid "Price"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:48
+#: ../wc_templates/cart/wc_confirm_page.php:48
+msgid "Qty"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:49
+#: ../wc_templates/cart/wc_confirm_page.php:49
+msgid "Total"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:58
+#: ../wc_templates/cart/wc_confirm_page.php:57
+msgid "Subtotal"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:64
+#: ../wc_templates/cart/wc_confirm_page.php:41
+#: ../wc_templates/member/wc_member_page.php:73
+msgid "Currency"
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:66
+msgid "The price with this mark applys to Business pack discount."
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:73
+#, php-format
+msgid "Get Free Shipping with <span>%s</span> more parchase."
+msgstr ""
+
+#: ../wc_templates/cart/wc_cart_page.php:80
+msgid "There are no items in your cart."
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:24
+msgid "*Please do not add other items or change quantity in another window."
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:62
+msgid "Used points"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:68
+msgid "Campaign disnount"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:73
+msgid "Shipping"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:78
+msgid "COD fee"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:84
+msgid "consumption tax"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:89
+msgid "Total Amount"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:99
+#: ../wc_templates/member/wc_member_page.php:47
+msgid "The current point"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:103
+msgid "Points you are using here"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:107
+msgid "Use the points"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:117
+msgid "Customer Information"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:120
+#: ../wc_templates/cart/wc_customer_page.php:42
+#: ../wc_templates/cart/wc_customer_page.php:59
+#: ../wc_templates/cart/wc_customer_page.php:63
+#: ../wc_templates/member/wc_member_page.php:55
+#: ../wc_templates/member/wc_member_page.php:85
+msgid "e-mail adress"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:125
+msgid "Others"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:128
+#: ../wc_templates/cart/wc_delivery_page.php:53
+msgid "shipping option"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:131
+#: ../wc_templates/cart/wc_delivery_page.php:57
+msgid "Delivery date"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:134
+#: ../wc_templates/cart/wc_delivery_page.php:61
+msgid "Delivery Time"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:137
+#: ../wc_templates/cart/wc_delivery_page.php:65
+msgid "payment method"
+msgstr ""
+
+#: ../wc_templates/cart/wc_confirm_page.php:141
+#: ../wc_templates/cart/wc_delivery_page.php:82
+msgid "Notes"
+msgstr ""
+
+#: ../wc_templates/cart/wc_customer_page.php:38
+msgid "The member please enter at here."
+msgstr ""
+
+#: ../wc_templates/cart/wc_customer_page.php:46
+#: ../wc_templates/cart/wc_customer_page.php:68
+#: ../wc_templates/member/wc_member_page.php:89
+msgid "password"
+msgstr ""
+
+#: ../wc_templates/cart/wc_customer_page.php:47
+msgid "Did you forget your password?"
+msgstr ""
+
+#: ../wc_templates/cart/wc_customer_page.php:50
+#: ../wc_templates/cart/wc_delivery_page.php:89
+msgid " Next "
+msgstr ""
+
+#: ../wc_templates/cart/wc_customer_page.php:53
+msgid "The nonmember please enter at here."
+msgstr ""
+
+#: ../wc_templates/cart/wc_customer_page.php:59
+#: ../wc_templates/cart/wc_customer_page.php:63
+#: ../wc_templates/cart/wc_customer_page.php:68
+#: ../wc_templates/cart/wc_customer_page.php:72
+#: ../wc_templates/cart/wc_delivery_page.php:65
+msgid "*"
+msgstr ""
+
+#: ../wc_templates/cart/wc_customer_page.php:63
+msgid "Re-input"
+msgstr ""
+
+#: ../wc_templates/cart/wc_customer_page.php:69
+#: ../wc_templates/cart/wc_customer_page.php:73
+msgid "When you enroll newly, please fill it out."
+msgstr ""
+
+#: ../wc_templates/cart/wc_customer_page.php:72
+#: ../wc_templates/member/wc_member_page.php:94
+msgid "Password (confirm)"
+msgstr ""
+
+#: ../wc_templates/cart/wc_delivery_page.php:41
+msgid "shipping address"
+msgstr ""
+
+#: ../wc_templates/cart/wc_delivery_page.php:42
+msgid "same as customer information"
+msgstr ""
+
+#: ../wc_templates/cart/wc_delivery_page.php:45
+msgid "Chose another shipping address."
+msgstr ""
+
+#: ../wc_templates/cart/wc_delivery_page.php:88
+msgid "Back"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:26
+msgid "Membership"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:34
+msgid "member number"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:38
+msgid "Strated date"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:42
+msgid "Full name"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:43
+#, php-format
+msgid "Mr/Mrs %s"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:62
+msgid "To member information editing"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:72
+msgid "Purchase history"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:79
+msgid "Member information editing"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:91
+#: ../wc_templates/member/wc_member_page.php:96
+msgid "Leave it blank in case of no change."
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:101
+msgid "Back to the top page."
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:102
+msgid "update it"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:103
+msgid "delete it"
+msgstr ""
+
+#: ../wc_templates/member/wc_member_page.php:103
+msgid "All information about the member is deleted. Are you all right?"
+msgstr ""

@@ -1,0 +1,59 @@
+/**
+ * The Editor style sheet
+ * @link       http://welcustom.net/
+ * @author      Mamekko
+ * @copyright   Copyright (c)2014 welcustom.net
+ */
+
+.mceContentBody{
+    max-width: 720px;
+    font-family: 'Meiryo', 'Hiragino Kaku Gothic Pro', sans-serif;
+    font-size: .875em;
+    line-height: 1.5;
+}
+h1	{font-size: 1.3125em;}
+h2	{font-size: 1.125em; margin-top: 2em;}
+h3	{font-size: 1em; margin-top: 2em;}
+h4	{font-size: .875em; margin-top: 2em;}
+h5	{font-size: .875em; margin-top: 2em;}
+h6	{font-size: .875em; margin-top: 2em;}
+.aligncenter{
+	display: block;
+    max-width: 100%;
+	height: auto;
+	margin: 10px auto;
+}
+.alignleft{
+	float: left;
+    max-width: 100%;
+	height: auto;
+	margin: 0 20px 10px 0;
+}
+.alignright{
+	float: right;
+    max-width: 100%;
+	height: auto;
+	margin: 0 0 10px 20px;
+}
+.wp-caption-dd{
+	margin-top: 3px;
+	color: #888;
+    font-size: .875em;
+    text-align: center;
+}
+.wp-caption{
+	max-width: 100%;
+	height: auto;
+    border: none;
+    background-color: transparent;
+}
+.wp-caption-text {
+	margin-top: 3px;
+	color: #888;
+    font-style: italic;
+    text-align: center;
+}
+ul,
+ol {
+    overflow: auto;
+}

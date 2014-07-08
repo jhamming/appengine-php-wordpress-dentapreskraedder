@@ -1,0 +1,455 @@
+/**
+ * This styles for adjusting original styles of welcart e-commerce plugin.
+ * @link       http://welcustom.net/mamekko/
+ * @author      Mamekko
+ * @copyright   Copyright (c)2014 welcustom.net
+ */
+
+@charset "UTF-8";
+
+/* Item page */
+span.cprice em.tax { color: #aaa; }
+span.price, em.tax { color: #808080; }
+.field_cprice,
+span.cprice {
+	color: #aaa;
+    font-size: .875em;
+    text-align: left;
+	text-decoration: line-through;
+}
+dl.itemGpExp {margin: 1em 0 0; }
+dl.itemGpExp dt {
+    border: none;
+    background-color: transparent;
+}
+
+/* Cart pages */
+div.usccart_navi ol.ucart {
+    counter-reset: cart_num;
+    height: initial;
+    margin: 0 0 2em;
+}
+div.usccart_navi ol.ucart:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+div.usccart_navi li.ucart {
+	width: 25%;
+    height: initial;	
+	padding: 10px 0;
+    border-bottom: 2px solid #aaa;
+	border-right: 1px solid #fff;
+    background: #F4EFE3;
+	color: #ccc;
+	line-height: normal;
+	font-size: 1em;
+}
+div.usccart_navi li.ucart:before {
+	counter-increment: cart_num;
+	content: counter(cart_num);
+    display: inline-block;
+    width: 1.5em;
+	margin-right: 5px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 1.5em;
+	font-weight: bold;
+    text-align: center;
+}
+div.usccart_navi li.ucart:last-child { border-right:none; }
+
+div.usccart_navi li.usccart_cart,
+div.usccart_navi li.usccart_customer,
+div.usccart_navi li.usccart_delivery,
+div.usccart_navi li.usccart_confirm{
+    border-bottom: 2px solid #d35134!important;
+	background: #F3EC70!important;
+	color: #333!important;
+}
+#inside-cart .send,
+#customer-info .send,
+#delivery-info .send,
+#info-confirm .send {
+    margin-bottom: 15px;
+    padding-top: 0;
+    border-top: none;
+}
+.customer_form input,
+.customer_form select {
+    border: 1px solid #ddd;
+}
+.customer_form select{
+    width: inherit;
+}
+div.header_explanation,
+div.footer_explanation {
+    margin: 1em 0;
+    padding: 0;
+    font-size: .875rem;
+}
+#customer-info th,
+#customer-info td,
+#delivery-info th,
+#delivery-info td,
+#confirm_table th,
+#confirm_table td {
+    padding: 5px;
+	font-size: 1em;
+}
+#delivery-info .customer_form dt,
+#delivery-info .customer_form dd {
+    border: none;
+    background: transparent;
+    font-size: 1.07em;
+}
+#delivery-info .customer_form dd {
+    margin-bottom: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid #eee;
+}
+#delivery-info .customer_form dd:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+#inside-cart,
+#customer-info,
+#info-confirm,
+#delivery-info {
+    margin-top: 1em;
+    font-size: .875em;
+}
+#delivery-info .error_message {
+    font-size: 1em;
+}
+
+/* 1. Cart */
+#inside-cart .no_cart { color: #555; }
+#cart .upbutton { padding-right: 0; }
+#cart .upbutton input {
+    margin-bottom: 5px;
+    padding: 4px 8px;
+    border: none;
+    background: #666;
+    color: #fff;
+}
+#cart table	{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#cart thead th {
+    background: #f8f8f8;
+    color: #333;
+    font-weight: normal;  
+}
+#cart tfoot th {
+    background: #eee;
+    color: #333;
+    font-size: 1rem;
+}
+#cart th, #cart td { border-color:#ccc; }
+#cart .thumbnail, #cart .quantity { width: 10%; }
+#cart .subtotal, #cart .price {text-align: center;}
+#cart .action {width: 5%;}
+#cart input.quantity {width: 30px;}
+#cart input.delButton { padding: 0; border: none; background: none; }
+
+/* 2. Customer info */
+#customer-info h2 {
+    border-bottom: none;
+    background: #C7E0E0;
+	font-size: 1em;
+	color: #002049;
+}
+#customer-info table {
+    width: 100%;
+    border: 0;
+}
+
+/* 4. Confirmation */
+#confirm_table h3 { font-size: 1em; }
+#cart #point_table { margin-top: 0;}
+#confirm_table .ttl td { background: #ffffef;}
+
+/* Buttons */
+#inside-cart .send input.continue_shopping_button, 
+#customer-info .send input.back_cart_button, 
+#delivery-info .send input.back_to_customer_button, 
+#info-confirm .send input.back_to_delivery_button,
+#inside-cart .send input.to_customerinfo_button, 
+#customer-info .send input[name="customerlogin"], 
+#customer-info .send input.to_deliveryinfo_button, 
+#customer-info .send input.to_reganddeliveryinfo_button, 
+#delivery-info .send input.to_confirm_button, 
+#info-confirm .send input.checkout_button,
+#memberpages input#member_login,
+#newmember .send input[name="regmember"]{
+	display: inline-block;
+    min-width: 200px;
+	margin-bottom: 10px;
+	padding: 15px 20px;
+	text-align: center;
+}
+#inside-cart .send input.continue_shopping_button:active, 
+#customer-info .send input.back_cart_button:active, 
+#delivery-info .send input.back_to_customer_button:active, 
+#info-confirm .send input.back_to_delivery_button:active,
+#inside-cart .send input.to_customerinfo_button:active, 
+#customer-info .send input[name="customerlogin"]:active, 
+#customer-info .send input.to_deliveryinfo_button:active, 
+#customer-info .send input.to_reganddeliveryinfo_button:active, 
+#delivery-info .send input.to_confirm_button:active, 
+#info-confirm .send input.checkout_button:active,
+#memberpages input#member_login:active,
+#newmember .send input[name="regmember"]:active{
+	position:relative;
+	top:1px;
+}
+
+#inside-cart .send input.to_customerinfo_button:hover, 
+#customer-info .send input[name="customerlogin"]:hover, 
+#customer-info .send input.to_deliveryinfo_button:hover,
+#delivery-info .send input.to_confirm_button:hover, 
+#info-confirm .send input.checkout_button:hover,
+#memberpages input#member_login:hover,
+#newmember .send input[name="regmember"]:hover{
+	background: #C0401A;
+}
+/* Adjust buttons' position */
+#inside-cart .send input.continue_shopping_button,
+#customer-info .send input.back_cart_button,
+#customer-info .send input.to_deliveryinfo_button {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* Back buttons */
+#inside-cart .send input.continue_shopping_button, 
+#customer-info .send input.back_cart_button, 
+#delivery-info .send input.back_to_customer_button, 
+#info-confirm .send input.back_to_delivery_button{
+	background: #ddd;
+	color: #666;
+}
+#inside-cart .send input.to_customerinfo_button, 
+#customer-info .send input[name="customerlogin"], 
+#customer-info .send input.to_deliveryinfo_button,  
+#delivery-info .send input.to_confirm_button, 
+#info-confirm .send input.checkout_button,
+#memberpages input#member_login,
+#newmember .send input[name="regmember"] {
+	background: #d35134;
+	color: #fff;
+}
+#customer-info .send input.to_reganddeliveryinfo_button{
+	background: #EFBA00;
+	color: #fff;
+}
+#customer-info .send input.to_reganddeliveryinfo_button:hover { background: #DAA513; }
+
+/* Member page */
+#memberpages div.loginbox {
+    max-width: 310px;
+    width: 100%;
+    font-size: .85em;
+}
+#memberpages input.loginmail,
+#memberpages input.loginpass {
+    width: 100%;
+}
+#memberinfo h2 {
+    padding-left: 10px;
+	border-bottom: none;
+	background: #C7E0E0;
+    font-size: 1em;
+    color: #002049;
+}
+#memberinfo th {
+    text-align: left;
+}
+#memberinfo th, #memberinfo td { font-size: 1em; }
+#memberpages #memberinfo ul { padding: 0; }
+#memberpages #memberinfo li {
+    display: inline;
+    list-style-type: none;
+    font-size: 1em;
+}
+#memberpages #memberinfo li a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    color: #fff;
+}
+#memberpages .send input{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+}
+#memberpages #memberinfo li.edit_member a,
+#memberpages input[name="editmember"] {
+    background: #d35134;
+}
+#memberpages #memberinfo li.edit_member a:hover,
+#memberpages input[name="editmember"]:hover {
+    background: #C0401A;
+}
+#memberpages #memberinfo li.logout_member a,
+#memberpages input[name="deletemember"] {
+    background: #006395;
+}
+#memberpages #memberinfo li.logout_member a:hover,
+#memberpages input[name="deletemember"]:hover {
+    background: #002049;
+}
+#memberpages input[name="top"] { background: #473E52 }
+#memberpages input[name="top"]:hover { background: #483339 }
+
+#memberpages input[name="top"]:active,
+#memberpages input[name="editmember"]:active,
+#memberpages input[name="deletemember"]:active{
+    position: relative;
+    top: 1px
+}
+#newmember th, #newmember td {font-size: 1em;}
+#newmember th{
+    min-width: 100px;
+    width: 25%;
+}
+#memberinfo .customer_form input,
+#newmember .customer_form input {
+    width: 50%;
+}
+#newmember .customer_form tr.inp1 input {
+    width: 82%;
+}
+#memberpages .loginbox p { font-size: 1em; }
+#memberpages .loginbox p#nav {padding-left: 0;}
+
+/* Welcart calendar */
+.businessday {
+    background: #FFECCE!important;
+    color: #D35134;
+}
+
+/* Paypal */
+#paypal_dialog,
+#paypal_dialog input,
+#paypal_dialog select{
+    font-family: 'Meiryo', 'Hiragino Kaku Gothic Pro', sans-serif;
+    font-size: .875em;
+}
+#paypal_dialog #paypal_close {
+    padding: 5px;
+    border: none;
+    color: #777;
+}
+
+/* Welcart widget */
+.ucart_widget_body .title {
+    padding: 5px;
+    background: #333;
+}
+.ucart_widget_body .title a { color: #fff; }
+.widget_welcart_post p {
+    padding: 5px;
+    background: #fff;
+    line-height: 1.5;
+}
+
+/* Welcart multiple category search */
+#searchbox .title {
+    margin: 0 0 2em;
+    border-bottom: none;
+}
+#searchbox legend {
+    font-size: 1em;
+}
+#searchbox div.field {
+    border-bottom: none;
+}
+#searchbox fieldset {
+    padding: 0.35em 1.5em 1em;
+    background: #eee;
+    border: 1px solid #c0c0c0;
+}
+#searchbox fieldset > fieldset {
+    background: #FAFAFA;
+}
+#searchbox .navigation {
+    margin: 1em 0;
+}
+
+@media
+only screen and (max-width : 40.061em){
+
+.item_custom_field {
+    padding-left: 1em;
+}    
+div.usccart_navi li.ucart {
+	width: 50%;
+	padding-left: 10px;
+    text-align: left;
+}
+div.usccart_navi li.ucart:nth-child(2){ border-right: none;}
+    
+#cart th, #cart td {
+    padding: 2px 3px;
+}
+#cart #point_table { width: 100%; }
+
+#customer-info table,
+#delivery-info table {
+    border-top: 1px solid #e6e6e6;
+    border-left: none;
+}
+#customer-info table input {
+    font-size: 1.125em;
+}
+#customer-info .customer_form input,    
+#delivery-info #delivery_table input,
+#memberinfo .customer_form input,
+#newmember .customer_form input {
+    display: inline-block!important;
+    width: 100%!important;
+}
+#customer-info .customer_form input.hidden,
+#memberinfo .customer_form input.hidden,
+#newmember .customer_form input.hidden {
+    display: none!important;
+}
+#customer-info .customer_form tr.inp1 input,
+#delivery-info #delivery_table tr.inp1 input,
+#memberinfo .customer_form tr.inp1 input,
+#newmember .customer_form tr.inp1 input{
+    width: 90%!important;
+}
+#confirm_table th { width: 30%; }
+#confirm_table th, #confirm_table td, #cart #point_table .point  {font-size: 1em;}
+#info-confirm .send input.checkout_button { width: 220px; }
+
+#memberinfo th, #memberinfo td  {
+    padding: 5px;
+}
+.ui-dialog {
+    max-width: 400px;
+    width: 100%!important;
+}
+.customer_form {
+    border-top: 1px solid #e6e6e6!important;
+}
+.customer_form th, .customer_form td,
+.customer_form select, 
+#delivery-info th,
+#delivery-info td {
+    width: 100%!important;
+}
+.customer_form th,
+.customer_form td {
+    display: block;
+    border-top: none!important;
+    font-size: 1em!important;
+}
+#searchbox fieldset {padding: .75em;}
+}
