@@ -3,7 +3,7 @@
 ***************************************************
 [Usage Guide]
 Author：Mamekko
-Last updated：2014.7.1
+Last updated：2014.7.9
 
 -----contents-----
 0. Preparation
@@ -68,6 +68,9 @@ It is recommendable not to share same tags between 'item' posts and 'blog' posts
 *Images of marchandises
 In single page, the width of images is around 553px. Prepare the images which width is at least 553px.
 
+*Review comments
+To use review system, go item-edit-page and show 'Discussion' from screen options, then check 'Allow comments.' in Discussion box.
+It is recommended to use approval system ( which is in [settings]>[discussion] ) in order to prevent spams.
 
 [4. Usage of Plugins]
 This theme has functions of 'breadcrumbs', 'related items', 'pagination' or 'Light box' etc.

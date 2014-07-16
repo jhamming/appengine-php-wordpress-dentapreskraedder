@@ -170,4 +170,6 @@ get_header();
 
 <?php get_template_part('related-item'); ?>
 
+<?php comments_template('/comments-item.php'); ?>
+
 <?php get_footer(); ?>

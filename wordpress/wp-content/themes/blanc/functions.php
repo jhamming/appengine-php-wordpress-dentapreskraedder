@@ -93,7 +93,7 @@ function blanc_scripts(){
 	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/vendor/modernizr.js', array(), '', true);
 	wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', array(), '1.0', true);
 	
-	if( is_single() && comments_open() ){
+	if( is_singular() && comments_open() ){
 		wp_enqueue_script('comment-reply');
 	}
 	
@@ -111,7 +111,7 @@ function blanc_scripts(){
         wp_enqueue_script( 'use-swipebox', get_template_directory_uri() . '/js/use-swipebox.js', array(), '1.0',  true);
         if( in_category( 'item' ) ){
             wp_enqueue_script( 'use-flexslider-single', get_template_directory_uri() . '/js/use-flexslider-single.js', array(), '1.0', true);
-            wp_enqueue_script( 'script-qty', get_template_directory_uri() . '/js/script-qty.js', array(), '1.0', true);
+            wp_enqueue_script( 'scripts-item', get_template_directory_uri() . '/js/scripts-item.js', array(), '1.1', true);
         }
 	}
     if( is_page(array('usces-cart','usces-member'))){
@@ -310,13 +310,15 @@ add_action('template_redirect', 'search_no_keywords');
 //Show Inquiry Button in case of out of stock
 //for welcart e-commerce plugin
 function blanc_single_sku_zaiko_message($inquery_button){
-	$inquery_button = usces_get_itemZaiko( 'name' ).'&nbsp;<a href="'. home_url('usces-inquiry').'" class="inquery_button">'.__( "Inquiry Form", "blanc" ) .'</a>';
+    $inquiry_page = get_page_by_path('usces-inquiry')->ID;
+	$inquery_button = usces_get_itemZaiko( 'name' ).'&nbsp;<a href="'. get_permalink($inquiry_page).'" class="inquery_button">'.__( "Inquiry Form", "blanc" ) .'</a>';
 	return $inquery_button;
 }
 add_filter('usces_filters_single_sku_zaiko_message', 'blanc_single_sku_zaiko_message', 10);
 
 function blanc_multi_sku_zaiko_message($inquery_button){
-	$inquery_button = usces_get_itemZaiko( 'name' ).'&nbsp;<a href="'. home_url('usces-inquiry').'" class="inquery_button">'.__( "Inquiry Form", "blanc" ) . '</a>';
+    $inquiry_page = get_page_by_path('usces-inquiry')->ID;
+	$inquery_button = usces_get_itemZaiko( 'name' ).'&nbsp;<a href="'. get_permalink($inquiry_page).'" class="inquery_button">'.__( "Inquiry Form", "blanc" ) . '</a>';
 	return $inquery_button;
 }
 add_filter('usces_filters_multi_sku_zaiko_message', 'blanc_multi_sku_zaiko_message', 10);
@@ -475,26 +477,28 @@ add_filter('usces_filter_confirm_row', 'blanc_filter_confirm_row', 10, 3);
 //SSL error fix
 //for welcart e-commerce plugin
 //source from http://www.seshop.com/product/detail/15639/
-if( $usces->options['use_ssl'] ){
-	add_action('init', 'usces_ob_start');
-	function usces_ob_start(){
-		global $usces;
-		if( $usces->use_ssl && ($usces->is_cart_or_member_page($_SERVER['REQUEST_URI']) || $usces->is_inquiry_page($_SERVER['REQUEST_URI'])) )
-			ob_start('usces_ob_callback');
-	}
-	if ( ! function_exists( 'usces_ob_callback' ) ) {
-		function usces_ob_callback($buffer){
-			global $usces;
-			$pattern = array(
-				'|(<[^<]*)href=\"'.get_option('siteurl').'([^>]*)\.css([^>]*>)|', 
-				'|(<[^<]*)src=\"'.get_option('siteurl').'([^>]*>)|'
-			);
-			$replacement = array(
-				'${1}href="'.USCES_SSL_URL_ADMIN.'${2}.css${3}', 
-				'${1}src="'.USCES_SSL_URL_ADMIN.'${2}'
-			);
-			$buffer = preg_replace($pattern, $replacement, $buffer);
-			return $buffer;
-		}
-	}
+if( function_exists('usces_the_item')){
+    if( $usces->options['use_ssl'] ){
+        add_action('init', 'usces_ob_start');
+        function usces_ob_start(){
+            global $usces;
+            if( $usces->use_ssl && ($usces->is_cart_or_member_page($_SERVER['REQUEST_URI']) || $usces->is_inquiry_page($_SERVER['REQUEST_URI'])) )
+                ob_start('usces_ob_callback');
+        }
+        if ( ! function_exists( 'usces_ob_callback' ) ) {
+            function usces_ob_callback($buffer){
+                global $usces;
+                $pattern = array(
+                    '|(<[^<]*)href=\"'.get_option('siteurl').'([^>]*)\.css([^>]*>)|', 
+                    '|(<[^<]*)src=\"'.get_option('siteurl').'([^>]*>)|'
+                );
+                $replacement = array(
+                    '${1}href="'.USCES_SSL_URL_ADMIN.'${2}.css${3}', 
+                    '${1}src="'.USCES_SSL_URL_ADMIN.'${2}'
+                );
+                $buffer = preg_replace($pattern, $replacement, $buffer);
+                return $buffer;
+            }
+        }
+    }
 }

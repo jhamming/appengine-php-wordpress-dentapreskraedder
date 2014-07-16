@@ -4,7 +4,7 @@ Author: Mamekko
 Author URI: http://welcustom.net/
 Theme URI: http://welcustom.net/mamekko/index.html
 Description: Blanc is simple, white, 100% responsive WordPress theme designed for Welcart e-Commerce plugin. Blog posts and e-Commerce shop can coexcist. Designed with the w3C latest HTML5 and CSS3, it's also set Microdata for Google's rich snippets. Breadcrumbs, related item lists, pagination are already prepared, and also it contains jQuery plugin settings of lightbox, input validation and image slider. You can run your online shop without those plugins, which makes the website lighter and faster.
-Version: 1.1.2
+Version: 1.1.5
 License: GNU General Public License v3
 License URI: license.txt
 Tags: responsive-layout, one-column, white, editor-style, custom-header, custom-background, custom-menu, featured-images
@@ -308,6 +308,7 @@ input[type="radio"] {
 .wp-caption-text {
 	margin-top: 3px;
 	color: #888;
+    font-size: .75rem;
     font-style: italic;
     text-align: center;
 }
@@ -485,6 +486,7 @@ td { background: #fff;}
     margin: 20px 0;
     padding: 10px 20px;
     background: #FAFAFF;
+    font-size: .875rem;
 }
 #comments > h3 {
 	margin: .5em 0 0;
@@ -504,7 +506,7 @@ td { background: #fff;}
     border-bottom: 1px solid #ddd;
 }
 .comment-metadata {
-    font-size: .928em;
+    font-size: .75em;
 }
 .comment-content {
     margin-top: 1em;
@@ -542,7 +544,7 @@ td { background: #fff;}
 }
 /* Comment form */
 #respond {
-    margin: 20px 0;
+    margin: 20px 0 0;
     padding: 10px 20px;
     background: #f3f3f3;
     font-size: .875em;
@@ -552,6 +554,9 @@ td { background: #fff;}
     border-bottom: none;
 	font-family: 'Quicksand', 'Meiryo', 'Hiragino Kaku Gothic Pro', sans-serif;
 	font-size: 1.25rem;
+}
+#respond form > p {
+    margin: 1em 0;
 }
 #respond input,
 #respond textarea {
@@ -569,7 +574,9 @@ td { background: #fff;}
 #respond span {
 	color: #d35134;
 }
-#respond .form-allowed-tags {
+#respond .form-allowed-tags,
+.comment-reply-link,
+#cancel-comment-reply-link{
 	font-size: .875em;
 }
 #respond input[type="submit"] {
@@ -581,6 +588,23 @@ td { background: #fff;}
 #respond input[type="submit"]:hover {
     background: #C0401A;
 }
+/* Review comments */
+.review-post h1 {
+    margin-bottom: 0;
+}
+.review-post h3.comment-reply-title {
+    font-size: 1rem!important;
+    font-weight: normal;
+    cursor: pointer;
+}
+.review-post form {
+    display: none;
+}
+.no-review {
+    margin: 1em 0 0;
+    color: #aaa;
+}
+
 /* secret post */
 .post-password-form input[type="submit"] {
     padding: 3px;
@@ -748,6 +772,10 @@ td { background: #fff;}
     font-family: 'Quicksand', 'Meiryo', 'Hiragino Kaku Gothic Pro', sans-serif;
     font-weight: bold;
 }
+.page-template-uscescart-php #footer {
+    padding-top: 0;
+    border-top: none;
+}
 .copyright {
     padding: 1em 0;
     background: #e7e7e7;
@@ -838,6 +866,9 @@ td { background: #fff;}
 .widget ul li.post_list {
     margin-left: 0;
     text-indent: 0;
+}
+.widget ul.ucart_login_body li {
+    padding-left: 0;
 }
 .widget_welcart_category ul li:before,
 .usces_recent_entries ul li:before,
@@ -935,6 +966,10 @@ td { background: #fff;}
 .loginbox input[type="checkbox"] {
 	margin: 5px;
 }
+.loginmail,
+.loginpass {
+    width: 100%;
+}
 
 /* Single item page */
 .zaiko_status { margin-top: 10px; }
@@ -992,8 +1027,9 @@ input.skuquantity {
     margin-right: 10px;
 }
 
-/* Related Items */
-.related-item h1 {
+/* Related Items, Reviews */
+.related-item h1,
+.review-post h1 {
     padding-top: 1em;
     border-top: 1px solid #eee;
     font-family: 'Quicksand', 'Meiryo', 'Hiragino Kaku Gothic Pro', sans-serif;
@@ -1148,6 +1184,9 @@ blockquote { margin: 0; }
 #respond input[type="submit"] { max-width: inherit; }
 .noresult form { max-width: 90%; }
 
+#sidebar {
+    margin-top: 2em;
+}
 .widget ul li {
     padding: .5em 0 .5em 1.2em;
     border-top: 1px dashed #ccc;

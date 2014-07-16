@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Blanc Theme Translation\n"
-"POT-Creation-Date: 2014-06-10 09:20+0900\n"
-"PO-Revision-Date: 2014-06-10 09:20+0900\n"
+"POT-Creation-Date: 2014-07-09 11:21+0900\n"
+"PO-Revision-Date: 2014-07-09 11:23+0900\n"
 "Last-Translator: Mamekko <info@welcustom.net>\n"
 "Language-Team: Mamekko <info@welcustom.net>\n"
 "Language: Japanese\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../404.php:23 ../functions.php:182
+#: ../404.php:23 ../breadcrumbs.php:25
 msgid "404 Not found"
 msgstr "ページが見つかりませんでした。"
 
@@ -39,35 +39,85 @@ msgstr "ARCHIVES"
 msgid "AUTHOR"
 msgstr "AUTHOR"
 
-#: ../archive.php:30 ../functions.php:144
+#: ../archive.php:30 ../functions.php:169
 msgid "F jS, Y"
 msgstr "Y年n月j日"
 
-#: ../archive.php:31 ../functions.php:147
+#: ../archive.php:31 ../functions.php:172
 msgid "F Y"
 msgstr "Y年n月"
 
-#: ../archive.php:32 ../functions.php:150 ../functions.php:186
+#: ../archive.php:32 ../breadcrumbs.php:29 ../functions.php:175
 msgid "Y"
 msgstr "Y年"
 
-#: ../archive.php:104 ../front-page.php:131 ../home.php:88
+#: ../archive.php:113 ../front-page.php:163 ../home.php:97 ../search.php:88
 msgid "READ MORE"
 msgstr "続きを読む"
+
+#: ../breadcrumbs-item.php:13 ../breadcrumbs.php:15
+msgid "Home"
+msgstr "Home"
+
+#: ../breadcrumbs-item.php:16 ../breadcrumbs.php:18 ../functions.php:181
+#, php-format
+msgid "Results for '%s'"
+msgstr "「%s」の検索結果"
+
+#: ../breadcrumbs-item.php:18 ../breadcrumbs.php:23
+msgid "Tag:"
+msgstr "タグ："
+
+#: ../breadcrumbs-item.php:24 ../breadcrumbs.php:57 ../breadcrumbs.php:100
+#, php-format
+msgid " - Page %d"
+msgstr " - Page %d"
+
+#: ../breadcrumbs.php:27
+msgid "jS"
+msgstr "j日"
+
+#: ../breadcrumbs.php:28
+msgid "F"
+msgstr "n月"
+
+#: ../breadcrumbs.php:64
+msgid "Author:"
+msgstr "投稿者："
+
+#: ../comments-item.php:14
+msgid "REVIEWS"
+msgstr ""
+
+#: ../comments-item.php:20
+msgid "Add a review"
+msgstr "レビューを投稿する"
+
+#: ../comments-item.php:23
+msgid "Name"
+msgstr "お名前"
+
+#: ../comments-item.php:25
+msgid "Email"
+msgstr "メールアドレス"
+
+#: ../comments-item.php:29 ../comments.php:35
+msgid "Submit"
+msgstr "送信"
+
+#: ../comments-item.php:54
+msgid "No reviews yet."
+msgstr "レビューはありません。"
 
 #: ../comments.php:15
 msgid "Comments"
 msgstr "Comments"
 
-#: ../comments.php:35
-msgid "Submit"
-msgstr "送信"
-
-#: ../front-page.php:61
+#: ../front-page.php:84
 msgid "WHAT'S NEW"
 msgstr "WHAT'S NEW"
 
-#: ../front-page.php:177
+#: ../front-page.php:221
 msgid "RECOMMENDS"
 msgstr "RECOMMENDS"
 
@@ -151,125 +201,95 @@ msgstr "プラグインは有効化されました。"
 msgid "All plugins installed and activated successfully. %s"
 msgstr "全てのプラグインのインストール・有効化が完了しました：%s"
 
-#: ../functions.php:67
+#: ../functions.php:65
 msgid "Navigation"
 msgstr "ナビゲーション"
 
-#: ../functions.php:145
+#: ../functions.php:170
 #, php-format
 msgid "Posts on %s"
 msgstr "%sのブログ記事"
 
-#: ../functions.php:148 ../functions.php:151
+#: ../functions.php:173 ../functions.php:176
 #, php-format
 msgid "Posts in %s"
 msgstr "%sのブログ記事"
 
-#: ../functions.php:156 ../functions.php:175 ../functions.php:276
-#, php-format
-msgid "Results for '%s'"
-msgstr "「%s」の検索結果"
-
-#: ../functions.php:172 ../functions.php:273
-msgid "Home"
-msgstr "Home"
-
-#: ../functions.php:180 ../functions.php:278
-msgid "Tag:"
-msgstr "タグ："
-
-#: ../functions.php:184
-msgid "jS"
-msgstr "j日"
-
-#: ../functions.php:185
-msgid "F"
-msgstr "n月"
-
-#: ../functions.php:214 ../functions.php:257 ../functions.php:284
-#, php-format
-msgid " - Page %d"
-msgstr " - Page %d"
-
-#: ../functions.php:221
-msgid "Author:"
-msgstr "投稿者："
-
-#: ../functions.php:334
-msgid "YOU MAY ALSO LIKE..."
-msgstr "YOU MAY ALSO LIKE..."
-
-#: ../functions.php:392
-msgid "Footer column 1"
-msgstr "フッターカラム１"
-
-#: ../functions.php:393
-msgid "Place widgets for 1st column."
-msgstr "１列目に表示するウィジェットを設定"
-
-#: ../functions.php:402
-msgid "Footer column 2"
-msgstr "フッターカラム２"
-
-#: ../functions.php:403
-msgid "Place widgets for 2nd column."
-msgstr "２列目に表示するウィジェットを設定"
-
-#: ../functions.php:412
-msgid "Footer column 3"
-msgstr "フッターカラム３"
-
-#: ../functions.php:413
-msgid "Place widgets for 3rd column."
-msgstr "３列目に表示するウィジェットを設定"
-
-#: ../functions.php:422
-msgid "Footer column 4"
-msgstr "フッターカラム４"
-
-#: ../functions.php:423
-msgid "Place widgets for 4th column."
-msgstr "４列目に表示するウィジェットを設定"
-
-#: ../functions.php:432
+#: ../functions.php:196
 msgid "Blog sidebar"
 msgstr "ブログ用サイドバー"
 
-#: ../functions.php:433
+#: ../functions.php:197
 msgid "Place widgets for blog page."
 msgstr "ブログページに表示するウィジェットを設定"
 
-#: ../functions.php:442
+#: ../functions.php:206
 msgid "Page sidebar"
 msgstr "固定ページ用サイドバー"
 
-#: ../functions.php:443
+#: ../functions.php:207
 msgid "Place widgets for pages."
 msgstr "固定ページに表示するウィジェットを設定"
 
-#: ../functions.php:453
+#: ../functions.php:216
+msgid "Footer column 1"
+msgstr "フッターカラム１"
+
+#: ../functions.php:217
+msgid "Place widgets for 1st column."
+msgstr "１列目に表示するウィジェットを設定"
+
+#: ../functions.php:226
+msgid "Footer column 2"
+msgstr "フッターカラム２"
+
+#: ../functions.php:227
+msgid "Place widgets for 2nd column."
+msgstr "２列目に表示するウィジェットを設定"
+
+#: ../functions.php:236
+msgid "Footer column 3"
+msgstr "フッターカラム３"
+
+#: ../functions.php:237
+msgid "Place widgets for 3rd column."
+msgstr "３列目に表示するウィジェットを設定"
+
+#: ../functions.php:246
+msgid "Footer column 4"
+msgstr "フッターカラム４"
+
+#: ../functions.php:247
+msgid "Place widgets for 4th column."
+msgstr "４列目に表示するウィジェットを設定"
+
+#: ../functions.php:257
 msgid "Member page sidebar"
 msgstr "メンバーページ用サイドバー"
 
-#: ../functions.php:454
+#: ../functions.php:258
 msgid "Place widgets for member page."
 msgstr "メンバーページ用に表示するウィジェットを設定"
 
-#: ../functions.php:469 ../functions.php:474
+#: ../functions.php:314 ../functions.php:321
 msgid "Inquiry Form"
 msgstr "お問い合せ"
 
-#: ../functions.php:552 ../wc_templates/cart/wc_cart_page.php:66
+#: ../functions.php:401 ../wc_templates/cart/wc_cart_page.php:66
 msgid "Business package discount"
 msgstr ""
 
-#: ../header.php:31
+#: ../header.php:32
 msgid "Shopping Cart"
 msgstr "カートを見る"
 
-#: ../header.php:38 ../header.php:51
+#: ../header.php:39 ../header.php:52
 msgid "MENU"
 msgstr "MENU"
+
+#: ../related-item.php:44
+msgid "YOU MAY ALSO LIKE..."
+msgstr "YOU MAY ALSO LIKE..."
 
 #: ../search-item.php:19 ../search.php:20
 #: ../wc_templates/wc_search_page.php:32
@@ -281,7 +301,7 @@ msgstr "SEARCH"
 msgid "Your search for \"%s\" did not match any results."
 msgstr "「<span>%s</span>」と一致する商品は見つかりませんでした。"
 
-#: ../search-item.php:77 ../search.php:92
+#: ../search-item.php:77 ../search.php:101
 msgid "Try different keywords"
 msgstr "別のキーワードで検索して下さい。"
 
@@ -289,28 +309,24 @@ msgstr "別のキーワードで検索して下さい。"
 msgid "Search..."
 msgstr "キーワード"
 
-#: ../search.php:79
-msgid "more"
-msgstr "続きを読む"
-
-#: ../search.php:91
+#: ../search.php:100
 #, php-format
 msgid "Your search for \"%s\" did not yield any results."
 msgstr "「<span>%s</span>」と一致する記事は見つかりませんでした。"
 
-#: ../single.php:68
+#: ../single.php:77
 msgid "Previous Post"
 msgstr "Previous Post"
 
-#: ../single.php:71
+#: ../single.php:80
 msgid "Next Post"
 msgstr "Next Post"
 
-#: ../thumbnail-box.php:28
+#: ../thumbnail-box.php:29
 msgid "Sold Out"
 msgstr ""
 
-#: ../thumbnail-box.php:31
+#: ../thumbnail-box.php:32
 msgid "Out Of Stock"
 msgstr ""
 
@@ -648,10 +664,6 @@ msgstr ""
 "い。"
 
 #: ../wc_templates/cart/wc_confirm_page.php:62
-msgid "Used points"
-msgstr ""
-
-#: ../wc_templates/cart/wc_confirm_page.php:68
 msgid "Campaign disnount"
 msgstr ""
 
@@ -663,32 +675,32 @@ msgstr ""
 msgid "COD fee"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:84
-msgid "consumption tax"
+#: ../wc_templates/cart/wc_confirm_page.php:90
+msgid "Used points"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:89
+#: ../wc_templates/cart/wc_confirm_page.php:95
 msgid "Total Amount"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:99
+#: ../wc_templates/cart/wc_confirm_page.php:105
 #: ../wc_templates/member/wc_member_page.php:47
 msgid "The current point"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:103
+#: ../wc_templates/cart/wc_confirm_page.php:109
 msgid "Points you are using here"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:107
+#: ../wc_templates/cart/wc_confirm_page.php:113
 msgid "Use the points"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:117
+#: ../wc_templates/cart/wc_confirm_page.php:123
 msgid "Customer Information"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:120
+#: ../wc_templates/cart/wc_confirm_page.php:126
 #: ../wc_templates/cart/wc_customer_page.php:42
 #: ../wc_templates/cart/wc_customer_page.php:59
 #: ../wc_templates/cart/wc_customer_page.php:63
@@ -697,31 +709,31 @@ msgstr ""
 msgid "e-mail adress"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:125
+#: ../wc_templates/cart/wc_confirm_page.php:131
 msgid "Others"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:128
+#: ../wc_templates/cart/wc_confirm_page.php:134
 #: ../wc_templates/cart/wc_delivery_page.php:53
 msgid "shipping option"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:131
+#: ../wc_templates/cart/wc_confirm_page.php:137
 #: ../wc_templates/cart/wc_delivery_page.php:57
 msgid "Delivery date"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:134
+#: ../wc_templates/cart/wc_confirm_page.php:140
 #: ../wc_templates/cart/wc_delivery_page.php:61
 msgid "Delivery Time"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:137
+#: ../wc_templates/cart/wc_confirm_page.php:143
 #: ../wc_templates/cart/wc_delivery_page.php:65
 msgid "payment method"
 msgstr ""
 
-#: ../wc_templates/cart/wc_confirm_page.php:141
+#: ../wc_templates/cart/wc_confirm_page.php:147
 #: ../wc_templates/cart/wc_delivery_page.php:82
 msgid "Notes"
 msgstr ""
@@ -840,6 +852,18 @@ msgstr ""
 #: ../wc_templates/member/wc_member_page.php:103
 msgid "All information about the member is deleted. Are you all right?"
 msgstr ""
+
+#~ msgid "Please %s to add a review."
+#~ msgstr "%sしてレビューを投稿する"
+
+#~ msgid "To add a review, please "
+#~ msgstr "レビューの投稿には"
+
+#~ msgid "&nbsp;to leave a review"
+#~ msgstr "してレビューを投稿する"
+
+#~ msgid "more"
+#~ msgstr "続きを読む"
 
 #~ msgid "PRODUCTS"
 #~ msgstr "PRODUCTS"
